@@ -1,15 +1,148 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #fff;
 }
 
 header {
   width: 100%;
   height: 56px;
-  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-header i {
+header i.fa-bars {
   font-size: 20px;
-  font: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+header img {
+  height: 20px;
+  width: 93px;
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: 40px;
+}
+
+.input-box {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #f9f9f9;
+  padding: 0 12px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 24px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.search-icon {
+  width: 64px;
+  height: 40px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-icon i {
+  font-size: 16px;
+  color: #606060;
+}
+
+.search-icon:hover {
+  background-color: #e8e8e8;
+}
+
+.microphone {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  border: #ccc;
+  margin-left: 10px;
+}
+.microphone i {
+  font-size: 15px;
+}
+
+.create {
+  width: 98px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+}
+
+.create p {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.bell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  /* background-color: #f8f8f8;
+  border: #ccc; */
+  margin-left: 10px;
+}
+.bell i {
+  font-size: 15px;
+}
+
+.bell:hover {
+  background-color: #e8e8e8;
+}
+
+.user {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user i {
+  font-size: 30px;
 }

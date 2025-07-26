@@ -13,6 +13,7 @@
   background-color: white;
   display: flex;
   display: list-item;
+  border-right: 1px solid #e9eef0;
   
 }
 .buttons{
@@ -26,10 +27,25 @@
   color: black;
 }
 .buttons i,p{
-  margin-left: 10px;
+  margin-left: 5px;
   color: black;
+  font-size: 15px;
 }
 .buttons:hover{
-  background-color: #ccc;
+  background-color: #e9eef0;
+}
+.buttons img{
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
+.buttons i{
+  font-size: 25px;
+}
+.line{
+  height: 5px;
+  width: 95%;
+  margin-left: 5px;
+  border-top: 1px solid #e9eef0;
 }
 

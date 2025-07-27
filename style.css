@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 body {
@@ -243,12 +243,12 @@ header {
 }
 
 .video-card {
-  width: 300px;
+  width: 360px;
 }
 
 .video {
   width: 100%;
-  height: 180px;
+  height: 200px;
   background-color: #000;
   border-radius: 10px;
   overflow: hidden;

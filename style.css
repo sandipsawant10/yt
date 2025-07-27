@@ -15,6 +15,7 @@
   display: list-item;
   border-right: 1px solid #e9eef0;
   overflow: auto;
+  margin-top: -4%; /* Adjusted to account for header height */
 }
 .buttons {
   height: 30px;
@@ -235,4 +236,35 @@ header {
 
 .user i {
   font-size: 28px;
+}
+
+.hr-buttons {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 16px;
+  background-color: #fff;
+  margin-left: 20%;
+  margin-top: 15px;
+}
+
+.hr-buttons button {
+  padding: 6px 12px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.hr-buttons button:hover {
+  background-color: #e5e5e5;
+}
+
+.hr-buttons button:focus,
+.hr-buttons button:active {
+  background-color: #000;
+  color: #fff;
 }

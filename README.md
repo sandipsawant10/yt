@@ -63,8 +63,8 @@ Ensure images are placed in the image/ folder with the same filenames as referen
 Open index.html in your preferred browser.
 
 bash
-git clone https://github.com/sandipsawant10/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/sandipsawant10/yt.git
+cd yt
 # Open index.html in your browser
 Customization
 Replace images in the image/ folder with your own thumbnails or logos.
